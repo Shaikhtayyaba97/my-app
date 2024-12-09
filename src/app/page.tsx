@@ -43,12 +43,12 @@ export default function Home() {
                 description: "Handmade crafted goods made with real passion and craftsmanship",
               },
               {
-                icon: "/purchase.png",
+                icon: "/Purchase.png",
                 title: "Unbeatable prices",
                 description: "For our materials and quality, you won’t find better prices anywhere",
               },
               {
-                icon: "/sprout.png",
+                icon: "/Sprout.png",
                 title: "Recycled packaging",
                 description: "We use 100% recycled to ensure our footprint is more manageable",
               },
