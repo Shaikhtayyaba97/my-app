@@ -1,3 +1,9 @@
+This is my very first biggest project without getting any help from anyone except chatgpt. I tried my best to keep code clean nad simple i have used React icon and Shadcn library for icon.
+For Responsives i did some my own and then got help from chatgpt for some sections. 
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
