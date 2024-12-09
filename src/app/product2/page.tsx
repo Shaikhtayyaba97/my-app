@@ -3,11 +3,7 @@ import { IoIosSearch } from "react-icons/io";
 import { RiShoppingCart2Line } from "react-icons/ri";
 import Image from "next/image";
 import Link from "next/link";
-import { CiCircleCheck } from "react-icons/ci";
-import { RiFacebookBoxFill } from "react-icons/ri";
-import { LuInstagram } from "react-icons/lu";
-import { GrSkype } from "react-icons/gr";
-import { FaTwitter, FaPinterest, FaLinkedin } from "react-icons/fa";
+
 
 export default function Listing2() {
   return (
