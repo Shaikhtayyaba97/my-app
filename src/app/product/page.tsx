@@ -9,7 +9,7 @@ export default function Listing() {
     <div className="bg-[repeating-linear-gradient(to_right,_rgba(255,192,203,0.7)_0px,_rgba(255,192,203,0.7)_60px,_transparent_60px,_transparent_80px)] py-8">
       <Nav1 />
       <div>
-        <Image src='/page Headers.png' alt="headerpic" width={2000} height={200} />
+        <Image src='/Page Headers.png' alt="headerpic" width={2000} height={200} />
       </div>
       <div className="flex flex-wrap justify-between m-6">
         <ul className="flex gap-8 flex-wrap">
