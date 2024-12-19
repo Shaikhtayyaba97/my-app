@@ -13,9 +13,9 @@ export default function Shopping() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-y-6 md:gap-y-10 md:gap-x-4 ml-4 md:ml-8">
-        <div className="font-bold">Product</div>
-        <div className="font-bold">Quantity</div>
-        <div className="font-bold">Total</div>
+        <div className="font-bold ml-10">Product</div>
+        <div className="font-bold ml-52">Quantity</div>
+        <div className="font-bold ml-48">Total</div>
 
         {/* First Product */}
         <div className="flex items-start">
