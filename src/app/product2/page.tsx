@@ -5,10 +5,7 @@ import Image from "next/image";
 import { CiCircleCheck } from "react-icons/ci";
 import { HiMiniPlusSmall } from "react-icons/hi2";
 import { GrFormSubtract } from "react-icons/gr";
-import { RiFacebookBoxFill } from "react-icons/ri";
-import { LuInstagram } from "react-icons/lu";
-import { GrSkype } from "react-icons/gr";
-import { FaTwitter, FaPinterest, FaLinkedin } from "react-icons/fa";
+
 import Link from "next/link";
 
 
