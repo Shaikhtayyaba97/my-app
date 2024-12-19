@@ -13,13 +13,13 @@ export default function Home() {
         <div className="relative w-full h-full bg-[url('/background.png')] bg-cover bg-center flex flex-col lg:flex-row">
           <div className="w-full lg:w-[800px]"></div>
           <div className="bg-white m-8 lg:m-[200px] w-full lg:w-[1000px] h-auto lg:h-[400px] p-8 lg:p-0">
-            <p className="mt-6 lg:mt-14 text-lg lg:text-3xl text-[rgb(34,36,46,100)]">
+            <p className="mt-6 ml-12 lg:mt-14 text-lg lg:text-3xl text-[rgb(34,36,46,100)]">
               Luxury homeware for people <br /> who love timeless design quality
             </p>
-            <p className="text-xs lg:text-base text-[rgb(91,96,118,100)] mt-4 lg:mt-8">
+            <p className=" ml-12 text-xs lg:text-base text-[rgb(91,96,118,100)] mt-4 lg:mt-8">
               Shop the new Spring 2022 collection today
             </p>
-            <button className="py-2 px-6 bg-gray-50 text-[rgb(91,96,118,100)] text-xs mt-6 lg:mt-36 hover:bg-blue-700">
+            <button className=" ml-14 py-2 px-6 bg-gray-50 text-[rgb(91,96,118,100)] text-xs mt-6 lg:mt-36 hover:bg-blue-700">
               View Collection
             </button>
           </div>
@@ -101,11 +101,11 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 px-4 lg:px-10 mt-16">
           <div className="bg-purple-950 text-gray-300 p-8 flex-1">
             <h2 className="text-2xl lg:text-3xl mb-4">It started with a small idea</h2>
-            <p className="text-sm">
-              A global brand with local beginnings, our story began in a small studio in South London in early 2014
+            <p className="text-sm ">
+              A global brand with local beginnings, our story began in a <br />   small studio in South London in early 2014
             </p>
-            <button className="py-2 px-6 bg-gray-500 text-[rgb(24,37,75,100)] text-xs mt-6 hover:bg-blue-700">
-              Learn More
+            <button className="py-2 mt-72 px-6 bg-gray-500 text-[rgb(24,37,75,100)] text-xs  hover:bg-blue-700">
+              View collection
             </button>
           </div>
           <div className="flex-1">
@@ -117,7 +117,7 @@ export default function Home() {
         <div className="text-center bg-[repeating-linear-gradient(to_right,_rgba(255,192,203,0.7)_0px,_rgba(255,192,203,0.7)_60px,_transparent_60px,_transparent_80px)] py-8 px-4">
           <h2 className="text-2xl lg:text-4xl mb-6">Join the club and get the benefits</h2>
           <p className="text-sm mb-6">
-            Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop-up stores, and more
+            Sign up for our newsletter and receive exclusive offers on <br /> new ranges, sales, pop-up stores, and more
           </p>
           <ul className="flex flex-wrap justify-center gap-5">
             <li className="flex gap-2">
@@ -133,6 +133,17 @@ export default function Home() {
               Large discounts
             </li>
           </ul>
+          <div className="flex justify-center mt-10 w-full max-w-md h-12 bg-transparent">
+            <input
+              type="email"
+              placeholder="your@email.com"
+              className="p-2 w-3/4 focus:outline-none"
+              style={{ background: "rgba(77,78,147,0.39)" }}
+            />
+            <button className="py-2 px-6 bg-blue-950 text-white text-xs hover:bg-blue-700">
+              Sign Up
+            </button>
+          </div>
         </div>
       </section>
 
